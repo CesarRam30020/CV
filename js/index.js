@@ -11,7 +11,9 @@ const onload = () => {
 };
 
 const agregarTexto = () => {
+    console.log("Entro aqui");
     cont += 1;
     body += `Elemento extra no ${cont}`;
     document.getElementById("cuerpo").innerHTML = body;
+    console.log(`Contador: ${cont}`);
 };
